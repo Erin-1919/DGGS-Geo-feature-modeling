@@ -1,0 +1,218 @@
+ctp_class,Direction,FullName,StreetType,length,VertexNo
+Arterial Street,Eastbound,9 AV SW,AV,28.9531994,2
+Arterial Street,Eastbound,9 AV SW,AV,127.3970032,3
+Urban Boulevard,Northbound,4 ST SW,ST,36.4113998,2
+Urban Boulevard,Southbound,9 ST SW,ST,52.800499,3
+Arterial Street,Eastbound,5 AV SW,AV,167.2339935,4
+Arterial Street,Westbound,4 AV SW,AV,175.5370026,5
+Arterial Street,Westbound,6 AV SW,AV,60.3328018,5
+Urban Boulevard,Northbound,4 ST SW,ST,185.7669983,8
+Urban Boulevard,Northbound,4 ST SW,ST,53.5598984,5
+Urban Boulevard,Unspecified Bidirectional,9 AV SE,AV,313.0769958,30
+Arterial Street,Eastbound,9 AV SW,AV,37.3652,8
+Arterial Street,Westbound,5 AV SW,AV,997.5999756,79
+Arterial Street,Westbound,6 AV SW,AV,416.7090149,56
+Arterial Street,Westbound,6 AV SW,AV,47.8177986,2
+Urban Boulevard,Unspecified Bidirectional,5 ST SW,ST,53.4808998,5
+Arterial Street,Northbound,6 AV SW,AV,58.5344009,14
+Arterial Street,Eastbound,5 AV SE,AV,117.3799973,6
+Urban Boulevard,Unspecified Bidirectional,14 ST SW,ST,169.8820038,7
+Arterial Street,Eastbound,9 AV SE,AV,170.7640076,5
+Arterial Street,Westbound,6 AV SW,AV,125.7929993,5
+Arterial Street,Eastbound,9 AV SW,AV,182.3899994,10
+Urban Boulevard,Unspecified Bidirectional,CENTRE ST S,ST,105.1220016,5
+Urban Boulevard,Southbound,5 ST SW,ST,54.2554016,5
+Urban Boulevard,Southbound,9 ST SW,ST,52.1730003,3
+Urban Boulevard,Unspecified Bidirectional,CENTRE ST S,ST,20.2448997,2
+Arterial Street,Westbound,6 AV SW,AV,170.5310059,5
+Urban Boulevard,Eastbound,9 AV SE,AV,175.598999,10
+Arterial Street,Eastbound,9 AV SW,AV,80.7207031,24
+Arterial Street,Westbound,6 AV SW,AV,52.082901,7
+Urban Boulevard,Northbound,MACLEOD TR SE,TR,28.7304001,3
+Urban Boulevard,Unspecified Bidirectional,CENTRE ST S,ST,54.527401,5
+Urban Boulevard,Unspecified Bidirectional,9 AV SE,AV,91.2060013,3
+Arterial Street,Westbound,6 AV SW,AV,159.1199951,5
+Urban Boulevard,Unspecified Bidirectional,8 ST SW,ST,52.7458,3
+Arterial Street,Eastbound,9 AV SW,AV,171.4589996,5
+Arterial Street,Westbound,4 AV SW,AV,98.5531998,5
+Urban Boulevard,Unspecified Bidirectional,CENTRE ST S,ST,104.7200012,5
+Urban Boulevard,Unspecified Bidirectional,9 AV SE,AV,52.8364983,2
+Arterial Street,Westbound,6 AV SW,AV,232.8549957,30
+Arterial Street,Westbound,4 AV SW,AV,140.276001,22
+Urban Boulevard,Unspecified Bidirectional,9 AV SE,AV,167.7310028,5
+Arterial Street,Westbound,6 AV SW,AV,169.3919983,5
+Urban Boulevard,Northbound,MACLEOD TR SE,TR,52.7360992,5
+Arterial Street,Eastbound,9 AV SW,AV,219.3139954,18
+Urban Boulevard,Unspecified Bidirectional,CENTRE ST S,ST,71.0541,5
+Arterial Street,Westbound,4 AV SW,AV,41.5598984,8
+Urban Boulevard,Eastbound,14 ST SW,ST,208.6179962,38
+Urban Boulevard,Northbound,MACLEOD TR SE,TR,143.6239929,5
+Arterial Street,Westbound,5 AV SW,AV,173.5639954,5
+Urban Boulevard,Southbound,1 ST SE,ST,53.7307014,5
+Urban Boulevard,Northbound,4 ST SW,ST,211.0820007,11
+Urban Boulevard,Northbound,14 ST SW,ST,175.7409973,8
+Urban Boulevard,Unspecified Bidirectional,8 ST SW,ST,42.8499985,3
+Urban Boulevard,Unspecified Bidirectional,CENTRE ST S,ST,46.6124992,5
+Urban Boulevard,Northbound,MACLEOD TR SE,TR,100.1829987,5
+Urban Boulevard,Unspecified Bidirectional,CENTRE ST S,ST,45.2235985,5
+Urban Boulevard,Southbound,1 ST SE,ST,54.0127983,2
+Arterial Street,Eastbound,5 AV SW,AV,154.3950043,5
+Urban Boulevard,Southbound,5 ST SW,ST,8.9373503,3
+Urban Boulevard,Northbound,4 ST SW,ST,8.9980698,2
+Urban Boulevard,Northbound,MACLEOD TR SE,TR,6.7653499,2
+Arterial Street,Eastbound,5 AV SW,AV,173.3699951,5
+Urban Boulevard,Northbound,MACLEOD TR SE,TR,52.7817001,5
+Urban Boulevard,Northbound,4 ST SW,ST,54.0922012,5
+Urban Boulevard,Unspecified Bidirectional,8 ST SW,ST,9.9492197,3
+Arterial Street,Westbound,4 AV SW,AV,90.2088013,3
+Urban Boulevard,Northbound,4 ST SW,ST,43.1680984,5
+Urban Boulevard,Unspecified Bidirectional,CENTRE ST S,ST,7.5569301,3
+Urban Boulevard,Northbound,MACLEOD TR SE,TR,7.9469099,2
+Urban Boulevard,Southbound,5 ST SW,ST,96.6661987,9
+Urban Boulevard,Southbound,1 ST SE,ST,7.0727501,2
+Urban Boulevard,Northbound,4 ST SW,ST,107.5220032,6
+Urban Boulevard,Northbound,MACLEOD TR SE,TR,44.3797989,5
+Urban Boulevard,Southbound,5 ST SW,ST,9.7512197,3
+Urban Boulevard,Unspecified Bidirectional,CENTRE ST S,ST,6.3224702,3
+Arterial Street,Westbound,4 AV SW,AV,171.9819946,5
+Urban Boulevard,Unspecified Bidirectional,8 ST SW,ST,52.7538986,6
+Urban Boulevard,Northbound,8 ST SW,ST,53.3023987,6
+Urban Boulevard,Southbound,5 ST SW,ST,43.5640984,5
+Arterial Street,Westbound,4 AV SW,AV,119.3690033,9
+Arterial Street,Eastbound,9 AV SW,AV,175.5370026,5
+Urban Boulevard,Northbound,MACLEOD TR SE,TR,104.7200012,5
+Urban Boulevard,Southbound,8 ST SW,ST,194.7059937,9
+Arterial Street,Westbound,4 AV SW,AV,172.8040009,5
+Urban Boulevard,Northbound,4 ST SW,ST,52.0500984,5
+Arterial Street,Eastbound,5 AV SE,AV,170.7640076,5
+Urban Boulevard,Southbound,5 ST SW,ST,143.3450012,10
+Arterial Street,Westbound,6 AV SE,AV,64.0365982,3
+Urban Boulevard,Southbound,5 ST SW,ST,52.1053009,5
+Urban Boulevard,Northbound,4 ST SW,ST,25.2103004,4
+Arterial Street,Westbound,4 AV SE,AV,153.3540039,14
+Arterial Street,Westbound,4 AV SE,AV,32.0210991,9
+Arterial Street,Eastbound,5 AV SW,AV,170.5099945,5
+Arterial Street,Southbound,9 ST SW,ST,52.6409988,4
+Urban Boulevard,Unspecified Bidirectional,9 AV SE,AV,25.3539009,3
+Arterial Street,Eastbound,9 AV SW,AV,120.9339981,21
+Arterial Street,Eastbound,9 AV SW,AV,148.3560028,40
+Urban Boulevard,Northbound,14 ST SW,ST,56.4053001,9
+Arterial Street,Eastbound,9 AV SW,AV,94.1047974,29
+Arterial Street,Eastbound,9 AV SW,AV,67.100502,5
+Urban Boulevard,Northbound,MACLEOD TR SE,TR,50.9490013,5
+Arterial Street,Eastbound,5 AV SE,AV,172.5870056,5
+Arterial Street,Eastbound,9 AV SW,AV,106.0670013,5
+Arterial Street,Westbound,6 AV SW,AV,172.1699982,5
+Arterial Street,Westbound,4 AV SE,AV,170.7380066,5
+Arterial Street,Northbound,4 AV SW,AV,68.7070999,9
+Arterial Street,Westbound,4 AV SE,AV,172.5879974,5
+Arterial Street,Eastbound,9 AV SW,AV,166.3690033,5
+Urban Boulevard,Southbound,5 ST SW,ST,51.6678009,5
+Urban Boulevard,Unspecified Bidirectional,CENTRE ST S,ST,162.0039978,11
+Arterial Street,Eastbound,9 AV SW,AV,52.3037987,13
+Urban Boulevard,Southbound,9 ST SW,ST,53.8212013,6
+Urban Boulevard,Southbound,14 ST SW,ST,56.7715988,9
+Arterial Street,Southbound,6 AV SW,AV,188.625,35
+Arterial Street,Eastbound,5 AV SW,AV,99.830101,25
+Urban Boulevard,Unspecified Bidirectional,CENTRE ST S,ST,151.1499939,8
+Urban Boulevard,Unspecified Bidirectional,5 ST SW,ST,53.6102982,3
+Urban Boulevard,Eastbound,9 AV SE,AV,173.2570038,5
+Urban Boulevard,Unspecified Bidirectional,4 ST SW,ST,51.9113007,5
+Arterial Street,Westbound,6 AV SW,AV,99.2601013,7
+Arterial Street,Northbound,4 AV SW,AV,36.6997986,4
+Urban Boulevard,Southbound,5 ST SW,ST,142.5399933,8
+Arterial Street,Eastbound,5 AV SW,AV,170.4880066,7
+Arterial Street,Unspecified Bidirectional,10 ST SW,ST,211.0670013,7
+Urban Boulevard,Southbound,1 ST SE,ST,52.7389984,5
+Skeletal Road,Westbound,MEMORIAL DR NE,DR,485.25,48
+Urban Boulevard,Unspecified Bidirectional,4 ST SW,ST,52.5494003,5
+Arterial Street,Eastbound,9 AV SW,AV,67.9832001,11
+Urban Boulevard,Eastbound,9 AV SE,AV,172.5870056,5
+Arterial Street,Westbound,4 AV SE,AV,31.4496994,9
+Arterial Street,Westbound,4 AV SW,AV,83.6221008,5
+Arterial Street,Westbound,6 AV SW,AV,159.0090027,5
+Urban Boulevard,Unspecified Bidirectional,9 AV SE,AV,129.973999,8
+Urban Boulevard,Southbound,1 ST SE,ST,51.0023994,5
+Arterial Street,Westbound,10 ST SW,ST,21.3565998,8
+Arterial Street,Eastbound,9 AV SW,AV,54.6832008,5
+Urban Boulevard,Southbound,9 ST SW,ST,52.7644997,3
+Urban Boulevard,Northbound,14 ST SW,ST,116.9280014,8
+Arterial Street,Eastbound,5 AV SW,AV,29.6798,5
+Arterial Street,Westbound,6 AV SW,AV,66.0302963,5
+Arterial Street,Eastbound,9 AV SW,AV,46.1917,12
+Urban Boulevard,Southbound,1 ST SE,ST,39.2052002,2
+Arterial Street,Eastbound,9 AV SW,AV,24.3785992,6
+Arterial Street,Southbound,4 AV SE,AV,138.2400055,10
+Arterial Street,Westbound,4 AV SW,AV,172.6009979,5
+Urban Boulevard,Unspecified Bidirectional,9 AV SE,AV,33.2384987,5
+Arterial Street,Eastbound,9 AV SW,AV,174.2100067,8
+Urban Boulevard,Northbound,8 ST SW,ST,194.6600037,8
+Urban Boulevard,Northbound,MACLEOD TR SE,TR,40.2378998,2
+Arterial Street,Eastbound,9 AV SW,AV,62.4522018,17
+Urban Boulevard,Southbound,5 ST SW,ST,53.3208008,6
+Urban Boulevard,Southbound,1 ST SE,ST,65.5150986,5
+Urban Boulevard,Unspecified Bidirectional,8 ST SW,ST,53.4757004,5
+Arterial Street,Eastbound,9 AV SW,AV,37.3802986,5
+Arterial Street,Eastbound,9 AV SW,AV,173.0509949,3
+Arterial Street,Westbound,4 AV SE,AV,141.4660034,5
+Arterial Street,Eastbound,9 AV SW,AV,151.7409973,3
+Arterial Street,Westbound,6 AV SW,AV,264.6929932,27
+Urban Boulevard,Unspecified Bidirectional,8 ST SW,ST,52.4821014,5
+Arterial Street,Southbound,9 ST SW,ST,52.8564987,4
+Arterial Street,Westbound,6 AV SW,AV,174.7640076,5
+Urban Boulevard,Unspecified Bidirectional,9 AV SE,AV,175.8639984,8
+Arterial Street,Westbound,6 AV SE,AV,172.5870056,5
+Arterial Street,Westbound,10 ST SW,ST,22.3906994,9
+Arterial Street,Westbound,5 AV SW,AV,87.0793991,6
+Arterial Street,Westbound,4 AV SW,AV,170.276001,4
+Arterial Street,Westbound,6 AV SW,AV,48.5196991,2
+Urban Boulevard,Southbound,5 ST SW,ST,53.3972015,5
+Urban Boulevard,Southbound,1 ST SE,ST,52.8520012,5
+Arterial Street,Southbound,9 ST SW,ST,53.1404991,6
+Arterial Street,Eastbound,5 AV SW,AV,175.5370026,5
+Urban Boulevard,Unspecified Bidirectional,CENTRE ST S,ST,106.1719971,5
+Urban Boulevard,Northbound,4 ST SW,ST,53.1120987,5
+Arterial Street,Westbound,6 AV SW,AV,174.2949982,5
+Arterial Street,Southbound,9 ST SW,ST,53.7577019,9
+Arterial Street,Southbound,9 ST SW,ST,53.5292015,8
+Arterial Street,Westbound,6 AV SW,AV,86.5784988,5
+Arterial Street,Southbound,10 ST SW,ST,42.2989998,13
+Urban Boulevard,Southbound,9 AV SE,AV,65.4117966,5
+Arterial Street,Eastbound,5 AV SW,AV,93.4147034,5
+Urban Boulevard,Southbound,1 ST SE,ST,105.0589981,5
+Arterial Street,Eastbound,9 AV SW,AV,172.6230011,3
+Arterial Street,Westbound,6 AV SW,AV,86.2507019,5
+Arterial Street,Eastbound,5 AV SW,AV,173.0509949,5
+Urban Boulevard,Northbound,4 ST SW,ST,52.5950012,5
+Urban Boulevard,Unspecified Bidirectional,CENTRE ST S,ST,51.0447998,5
+Arterial Street,Westbound,4 AV SW,AV,144.7539978,5
+Urban Boulevard,Northbound,MACLEOD TR SE,TR,36.1310005,3
+Urban Boulevard,Southbound,5 ST SW,ST,52.6175003,5
+Arterial Street,Eastbound,5 AV SW,AV,144.6529999,6
+Arterial Street,Southbound,9 ST SW,ST,50.4841003,9
+Urban Boulevard,Northbound,MACLEOD TR SE,TR,48.875,10
+Arterial Street,Westbound,6 AV SW,AV,75.9347992,17
+Urban Boulevard,Southbound,1 ST SE,ST,143.1410065,5
+Urban Boulevard,Unspecified Bidirectional,8 ST SW,ST,52.1324005,5
+Urban Boulevard,Unspecified Bidirectional,CENTRE ST S,ST,34.0050011,2
+Urban Boulevard,Southbound,8 ST SW,ST,53.4290009,6
+Arterial Street,Westbound,6 AV SE,AV,106.7269974,4
+Arterial Street,Westbound,4 AV SW,AV,75.3750992,7
+Arterial Street,Eastbound,5 AV SW,AV,37.8087006,13
+Arterial Street,Eastbound,5 AV SE,AV,274.196991,21
+Arterial Street,Westbound,4 AV SW,AV,100.1480026,4
+Arterial Street,Westbound,4 AV SE,AV,18.4645996,2
+Arterial Street,Eastbound,5 AV SW,AV,69.3350983,7
+Urban Boulevard,Southbound,5 ST SW,ST,53.5619011,6
+Arterial Street,Westbound,4 AV SE,AV,172.0299988,14
+Arterial Street,Eastbound,11 ST SW,ST,71.6576004,14
+Urban Boulevard,Unspecified Bidirectional,CENTRE ST S,ST,53.4882011,5
+Urban Boulevard,Unspecified Bidirectional,CENTRE ST S,ST,51.6649017,5
+Urban Boulevard,Unspecified Bidirectional,CENTRE ST S,ST,53.8726997,5
+Urban Boulevard,Unspecified Bidirectional,8 ST SW,ST,53.1940994,5
+Urban Boulevard,Unspecified Bidirectional,8 ST SW,ST,52.4524002,5
+Urban Boulevard,Unspecified Bidirectional,CENTRE ST S,ST,13.0657997,2
+Urban Boulevard,Southbound,1 ST SE,ST,44.3325996,5
+Urban Boulevard,Southbound,5 ST SW,ST,51.3224983,5
+Arterial Street,Eastbound,5 AV SE,AV,173.1349945,8
+Arterial Street,Eastbound,9 AV SW,AV,10.8803997,2
