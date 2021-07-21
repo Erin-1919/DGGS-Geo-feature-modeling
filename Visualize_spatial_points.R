@@ -2,11 +2,9 @@ library(dggridR)
 library(ggplot2)
 library(gridExtra)
 
-## Prepare
 # Read point datasets
-Camaras = read.csv("TrafficCamaras.csv")
-# Camaras = read.csv("AllTrafficCamaras.csv")
-str(Camaras)
+Cameras = read.csv("Data/TrafficCameras.csv")
+str(Cameras)
 # create a vector to store tested resolution levels
 res.levels = (21:30)
 
@@ -35,26 +33,25 @@ cell.convert = function(proj,aperture,topology,res,input.df) {
 
 ## Invoke the function in a loop
 for(i in res.levels) {
-  ISEA3H.df = rbind(ISEA3H.df, cell.convert("ISEA",3,"HEXAGON",i,Camaras))
+  ISEA3H.df = rbind(ISEA3H.df, cell.convert("ISEA",3,"HEXAGON",i,Cameras))
 }
 
 for(i in res.levels) {
-  ISEA4H.df = rbind(ISEA4H.df, cell.convert("ISEA",4,"HEXAGON",i,Camaras))
+  ISEA4H.df = rbind(ISEA4H.df, cell.convert("ISEA",4,"HEXAGON",i,Cameras))
 }
 
 for(i in res.levels) {
-  ISEA4T.df = rbind(ISEA4T.df, cell.convert("ISEA",4,"TRIANGLE",i,Camaras))
+  ISEA4T.df = rbind(ISEA4T.df, cell.convert("ISEA",4,"TRIANGLE",i,Cameras))
 }
 
 for(i in res.levels) {
-  ISEA4D.df = rbind(ISEA4D.df, cell.convert("ISEA",4,"DIAMOND",i,Camaras))
+  ISEA4D.df = rbind(ISEA4D.df, cell.convert("ISEA",4,"DIAMOND",i,Cameras))
 }
 
 
 ## Rename the fields
 names(ISEA3H.df) = names(ISEA4H.df) = names(ISEA4T.df) = names(ISEA4D.df) = 
   c("Address","latitude","longitude","quad","CellAddress","Cellcenter_lon","Cellcenter_lat","Resolution")
-
 
 # We show the results of resolution levels 25-27
 
@@ -90,7 +87,6 @@ dggs.ISEA4T.27 = dgsetres(dggs.ISEA4T.26,27)
 dggs.ISEA4D.26 = dgsetres(dggs.ISEA4D.25,26)
 dggs.ISEA4D.27 = dgsetres(dggs.ISEA4D.26,27)
 
-
 # Here we use one point (Address = "5 Avenue / 3 Street SE") as an example
 # Filter the datasets
 ISEA3H.25.df = filter(ISEA3H.df,Resolution == 25 & Address == "5 Avenue / 3 Street SE")
@@ -109,7 +105,6 @@ ISEA4D.25.df = filter(ISEA4D.df,Resolution == 25 & Address == "5 Avenue / 3 Stre
 ISEA4D.26.df = filter(ISEA4D.df,Resolution == 26 & Address == "5 Avenue / 3 Street SE")
 ISEA4D.27.df = filter(ISEA4D.df,Resolution == 27 & Address == "5 Avenue / 3 Street SE")
 
-
 # Here we find out the vertices of each cell
 vertex.grid.ISEA3H.25 = dgcellstogrid(dggs.ISEA3H.25,ISEA3H.25.df$CellAddress,frame=TRUE,wrapcells=TRUE)
 vertex.grid.ISEA3H.26 = dgcellstogrid(dggs.ISEA3H.26,ISEA3H.26.df$CellAddress,frame=TRUE,wrapcells=TRUE)
@@ -127,10 +122,9 @@ vertex.grid.ISEA4D.25 = dgcellstogrid(dggs.ISEA4D.25,ISEA4D.25.df$CellAddress,fr
 vertex.grid.ISEA4D.26 = dgcellstogrid(dggs.ISEA4D.26,ISEA4D.26.df$CellAddress,frame=TRUE,wrapcells=TRUE)
 vertex.grid.ISEA4D.27 = dgcellstogrid(dggs.ISEA4D.27,ISEA4D.27.df$CellAddress,frame=TRUE,wrapcells=TRUE)
 
-
 # Wrap the ggplot lines into a function
 point.plot = function (vertexgrid1,ISEAdf1,vertexgrid2,ISEAdf2,vertexgrid3,ISEAdf3,titletext) {
-  Camara1 = filter(Camaras,ï..Address == "5 Avenue / 3 Street SE")
+  Camera1 = filter(Cameras,ï..Address == "5 Avenue / 3 Street SE")
   pt.plot = ggplot() +
     # cell and cell boundaries
     geom_polygon(data=vertexgrid1, aes(x=long, y=lat, group=group, color="gray60", alpha=0.2)) +
@@ -148,7 +142,7 @@ point.plot = function (vertexgrid1,ISEAdf1,vertexgrid2,ISEAdf2,vertexgrid3,ISEAd
     # cell centroids
     geom_point (data=ISEAdf3, aes(x=Cellcenter_lon, y=Cellcenter_lat),size = 2,color = "black") +
     # Original 14 points
-    geom_point(data = Camara1, aes(x=longitude, y=latitude), size = 2, colour = "red") +
+    geom_point(data = Camera1, aes(x=longitude, y=latitude), size = 2, colour = "red") +
     coord_equal() + labs(title = titletext) +
     theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), 
           legend.position="none", plot.title=element_text(face="bold",size=12,hjust = 0.5),
@@ -158,7 +152,6 @@ point.plot = function (vertexgrid1,ISEAdf1,vertexgrid2,ISEAdf2,vertexgrid3,ISEAd
           axis.ticks = element_blank())
   return (pt.plot)
 }
-
 
 point.plot(vertex.grid.ISEA3H.25,ISEA3H.25.df,
            vertex.grid.ISEA3H.26,ISEA3H.26.df,
@@ -176,8 +169,6 @@ point.plot(vertex.grid.ISEA4D.25,ISEA4D.25.df,
            vertex.grid.ISEA4D.26,ISEA4D.26.df,
            vertex.grid.ISEA4D.27,ISEA4D.27.df,"ISEA4D")
 
-
-
 grid.arrange(point.plot(vertex.grid.ISEA3H.25,ISEA3H.25.df,
                         vertex.grid.ISEA3H.26,ISEA3H.26.df,
                         vertex.grid.ISEA3H.27,ISEA3H.27.df,"ISEA3H"),
@@ -191,18 +182,8 @@ grid.arrange(point.plot(vertex.grid.ISEA3H.25,ISEA3H.25.df,
                         vertex.grid.ISEA4D.26,ISEA4D.26.df,
                         vertex.grid.ISEA4D.27,ISEA4D.27.df,"ISEA4D"),nrow=2)
 
+Camera1 = filter(Cameras,ï..Address == "5 Avenue / 3 Street SE")
 
-
-
-
-
-
-
-
-
-
-
-Camara1 = filter(Camaras,ï..Address == "5 Avenue / 3 Street SE")
 pt.plot1 = ggplot() +
   # cell and cell boundaries
   geom_polygon(data=vertex.grid.ISEA3H.25, aes(x=long, y=lat, group=group, color="gray60", alpha=0.2)) +
@@ -220,7 +201,7 @@ pt.plot1 = ggplot() +
   # cell centroids
   geom_point (data=ISEA3H.27.df, aes(x=Cellcenter_lon, y=Cellcenter_lat),size = 2,color = "black") +
   # Original 14 points
-  geom_point(data = Camara1, aes(x=longitude, y=latitude), size = 2, colour = "red") +
+  geom_point(data = Camera1, aes(x=longitude, y=latitude), size = 2, colour = "red") +
   coord_equal() + labs(title = "titletext") +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), 
         legend.position="none", plot.title=element_text(face="bold",size=12,hjust = 0.5),
@@ -228,4 +209,5 @@ pt.plot1 = ggplot() +
         axis.title = element_blank(),
         axis.text = element_blank(),
         axis.ticks = element_blank())
+
 pt.plot1
