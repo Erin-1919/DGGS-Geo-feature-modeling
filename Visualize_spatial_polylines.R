@@ -3,8 +3,6 @@ library(ggplot2)
 library(dplyr)
 library(gridExtra)
 
-# First need to import the .rdata file containing polyline analyses results
-
 # Wrap the ggplot lines into a function
 set.plot = function (vertexgrid,ISEAdf,titletext) {
   st.plot = ggplot() +
@@ -26,7 +24,6 @@ set.plot = function (vertexgrid,ISEAdf,titletext) {
           axis.ticks = element_blank())
   return (st.plot)
 }
-
 
 street.plot = function (proj,aperture,topology,res1,res2,res3,input.df) {
   # Construct a dgg object 
@@ -55,8 +52,8 @@ street.plot = function (proj,aperture,topology,res1,res2,res3,input.df) {
   return (com.plot)
 }
 
-
 street.plot("ISEA",3,"HEXAGON",25,26,27,ISEA3H.df)
 street.plot("ISEA",4,"HEXAGON",21,22,23,ISEA4H.df)
 street.plot("ISEA",4,"TRIANGLE",21,22,23,ISEA4T.df)
 street.plot("ISEA",4,"DIAMOND",21,22,23,ISEA4D.df)
+
