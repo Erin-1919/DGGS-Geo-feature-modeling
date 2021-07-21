@@ -2,7 +2,6 @@ library(dggridR)
 library(ggplot2)
 library(gridExtra)
 
-
 point.plot = function (longitude,latitude,proj,aperture,topology,res1,res2,res3,titletext) {
   # Construct a dgg object 
   DGG1 = dgconstruct(proj, aperture, topology, res1, precision = 7,
@@ -38,7 +37,7 @@ point.plot = function (longitude,latitude,proj,aperture,topology,res1,res2,res3,
   Cellcenter_lat3 = dgSEQNUM_to_GEO(DGG3,Cell_address3)$lat_deg
   df3[1,1] = Cellcenter_lon3
   df3[1,2] = Cellcenter_lat3
-  # Start to get plots
+  # Start to plot
   pt.plot = ggplot() +
     # cell and cell boundaries
     geom_polygon(data=vertex.grid1, aes(x=long, y=lat, group=group, color="gray60", alpha=0.2)) +
@@ -66,7 +65,6 @@ point.plot = function (longitude,latitude,proj,aperture,topology,res1,res2,res3,
           axis.ticks = element_blank())
   return (pt.plot)
 }
-
 
 grid.arrange(point.plot (-114.0555,51.04818,"ISEA",3,"HEXAGON",24,25,26,"ISEA3H"),
              point.plot (-114.0555,51.04818,"ISEA",4,"HEXAGON",24,25,26,"ISEA4H"),
